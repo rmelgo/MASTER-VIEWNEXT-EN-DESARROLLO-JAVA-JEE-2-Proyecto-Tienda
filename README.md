@@ -1,12 +1,18 @@
-# Aplicacion gestion de una tienda
+# Aplicación de gestión de una tienda
 
-Se tiene una Dynamic Web Project en Java que permite realizar las 4 operaciones basicas (Consultar, añadir, modificar y eliminar) sobre los productos de una tienda.
+El objetivo de este proyecto es desarrolar un Dynamic Web Project en Java que permite realizar las 4 operaciones basicas (Consultar, añadir, modificar y eliminar) sobre los productos de una tienda.
 
 ## Pantalla principal
 
 La pantalla principal tiene el siguiente aspecto:
 
 ![Captura1](https://github.com/rmelgo/MASTER-VIEWNEXT-EN-DESARROLLO-JAVA-JEE-2-Proyecto-Tienda/assets/145989723/25963e18-1d7f-4073-afea-f132c3d80991)
+
+En esta pagina, se muestra una barra con las 4 opciones disponibles:
+- Busquedas
+- Altas
+- Eliminaciones
+- Modificaciones
 
 ## Busqueda
 
