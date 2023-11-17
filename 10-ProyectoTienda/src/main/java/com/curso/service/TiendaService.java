@@ -1,6 +1,8 @@
 package com.curso.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import com.curso.model.Producto;
@@ -23,6 +25,8 @@ public class TiendaService {
 	
 	
 	public List<Producto> obtenerListaProductos() {	
+		Collections.sort(listaProductos, Comparator.comparing(Producto::getSeccion).thenComparing(Producto::getNombre));
+		
 		return listaProductos;
 	}
 	
