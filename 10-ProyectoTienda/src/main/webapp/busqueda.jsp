@@ -44,6 +44,12 @@ a {
 	cursor: pointer;
 	width: 100%;
 	text-align: center;
+	text-decoration: none;
+}
+
+.enlacevuelta {
+	margin-top: 30px;
+	text-align: center;
 }
 
 </style>
@@ -84,7 +90,9 @@ List<Producto> lista_productos = ts.obtenerListaProductos();
 
 </table>
 
-<a href="paginaInicial.jsp">Volver al menu principal</a>
+<div class="enlacevuelta">
+	<a href="paginaInicial.jsp">Volver al menu principal</a>
+</div>
 
 </body>
 </html>

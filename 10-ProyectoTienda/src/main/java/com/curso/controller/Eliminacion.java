@@ -49,6 +49,7 @@ public class Eliminacion extends HttpServlet {
 			
 			//mostrar exito
 			request.setAttribute("mensaje", "El producto con nombre " + request.getParameter("nombre").toString() + " se ha eliminado con exito");
+			request.setAttribute("correcto", true);
 			
 	        RequestDispatcher rd = request.getRequestDispatcher("confirmacion.jsp");  
 	        rd.forward(request, response);  
@@ -56,6 +57,7 @@ public class Eliminacion extends HttpServlet {
 		else {
 			//mostrar informacion fallo
 			request.setAttribute("mensaje", "El producto con nombre " + request.getParameter("nombre").toString() + " no existe");
+			request.setAttribute("correcto", false);
 			
 	        RequestDispatcher rd = request.getRequestDispatcher("confirmacion.jsp");  
 	        rd.forward(request, response);  
